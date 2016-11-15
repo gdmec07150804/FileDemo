@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    tools:context="cn.edu.gdmec.s07150804.filedemo.MainActivity">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="PhoneDicectory"
+    android:onClick="phoneDicectory"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="externalstoragepublicDicectory"
+        android:id="@+id/externalstoragepublicDicectory"
+        android:onClick="externalstoragepublicDicectory"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="externalstorageDicectory"
+        android:id="@+id/externalstorageDicectory"
+        android:onClick="externalstorageDicectory"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DataStorage"
+        android:id="@+id/DataStorage"
+        android:onClick="dataStorage"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DownloadcacheDicectory"
+        android:onClick="downloadcacheDicectory"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RootDicectory"
+        android:onClick="rootDicectory"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result" />
+</LinearLayout>
